@@ -1,5 +1,5 @@
-Z_Proc:Z_Proc.c
-	gcc -o Z_Proc Z_Proc.c
+Gu_Proc:Gu_Proc.c
+	gcc Gu_Proc.c -o Gu_Proc
 .PHONY:clean
 clean:
-	rm -f Z_Proc
+	rm -f Gu_Proc
